@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica de Tablas</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Práctica de Tablas</h1>
+
+      <h2>Primera tabla</h2>
+      <section>
+        <table>
+          <!-- border="1"Se agrega un borde a la tabla -->
+          <tr>
+            <td>Ana</td>
+            <td>4.5</td>
+          </tr>
+          <tr>
+            <td>Carlos</td>
+            <td>3.8</td>
+          </tr>
+        </table>
+      </section>
+
+      <h2>Segunda tabla Encabezados</h2>
+      <section>
+        <table>
+          <tr>
+            <td>Aprendiz</td>
+            <td>Nota</td>
+          </tr>
+          <tr>
+            <td>Ana</td>
+            <td>4.5</td>
+          </tr>
+        </table>
+      </section>
+
+      <h2>Tercera tabla Divide Secciones</h2>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Teclado</td><td>$85.000</td></tr>
+            <tr>
+              <td>Mouse</td>
+              <td>$40.000</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>$125.000</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <h2>Cuarta tabla Colocación de titulos</h2>
+      <section>
+        <table>
+          <caption>
+            Notas del primer trimestre
+          </caption>
+          <thead>
+            <tr>
+              <th>Aprendiz</th>
+              <th>Nota</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ana</td>
+              <td>4.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <h2>Quinta tabla Unir Columnas</h2>
+      <section>
+        <table>
+          <tr>
+            <th colspan="2">Datos personales</th>
+            <th>Ficha</th>
+          </tr>
+          <tr>
+            <td>Ana</td>
+            <td>Gomez</td>
+            <td>2875432</td>
+          </tr>
+        </table>
+      </section>
+
+      <h2>Sexta tabla Unir Filas</h2>
+      <section>
+        <table>
+          <tr>
+            <th rowspan="2">Lunes</th>
+            <td>7:00 AM</td>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td>9:00 AM</td>
+            <td>CSS</td>
+          </tr>
+        </table>
+      </section>
+
+      <h2>Septima tabla Accesibilidad</h2>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Aprendiz</th>
+              <th scope="col">Nota</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Ana</th>
+              <td>4.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <div class="tabla-contenedor">
+          <table>
+            ...
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

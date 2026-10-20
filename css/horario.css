@@ -1,0 +1,97 @@
+*{
+    margin: 0;       
+    padding: 0;
+}
+.horario {
+   margin-top: 50px;
+}
+
+table, td, tr, th {
+    border: 1px solid black;
+}
+
+td,th{
+    padding: 10px;
+}
+
+caption {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0a39d1;
+}
+
+thead {    /*4 color fondo y texto*/
+    background: #0a39d1;
+    color: rgb(248, 247, 247);
+
+}
+/* Personalización de los th dentro del tbody (columna de horas) */
+tbody th {              /*
+  background-color: #0db8ec; /* Cambia fondo color */
+  font-size: 0.8rem;       /* Texto más pequeño */
+  font-weight: 600;         /* Grosor de la fuente */
+  text-align: center;       
+  padding: 8px;             /* Espaciado interno */
+}
+
+td.tecnica {                            /*punto 6*/ 
+    background-color: #e7e40b; /* Cambia fondo color */
+    font-size: 0.9rem;         /* Texto más pequeño */
+
+}
+
+td.transversal {                    /*punto 6*/
+    background-color: #6ff095; /* Cambia fondo color */
+    font-size: 0.9rem;         /* Texto más pequeño */
+
+}
+
+td.proyecto {                       /*punto 6*/
+    background-color: #e71dfa; /* Cambia fondo color */
+    font-size: 0.9rem;         /* Texto más pequeño */
+
+}
+
+td.libre {                    /*punto 6*/
+    background-color: #d83737; /* Cambia fondo color */
+    font-size: 0.9rem;         /* Texto más pequeño */
+}
+
+.pausa{                             /*punto 7*/
+    text-align: center;        /* Centrar el texto */
+    font-style: italic;         /* Texto en cursiva */
+    background-color: #6c757d; /* Cambia fondo color */
+}
+
+.ambiente {                             /*punto 8*/
+    display: block
+    font-size: 0.4rem;         /* Texto más pequeño */
+    color: #6c757d;              /* Cambia color del texto */
+}
+
+.tecnica:hover {
+transform: scale(1.2);
+}
+.transversal:hover{
+transform: scale(1.2);      /*puntos 9*/
+}
+.proyecto:hover{
+transform: scale(1.2);
+}
+.libre:hover{
+transform: scale(1.2);
+}
+
+tfoot td{               /*punto10*/
+font-size: 0.8rem;
+text-align: right;
+}
+
+.tabla-contenedor {    /*punto 11*/
+    overflow-x: auto;
+}
+
+thead th {              /*punto 12*/
+    position: sticky;
+}
